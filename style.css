@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: Montserrat; sans-seriff;
+}
+.container {
+  background:  #ECF4FF;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  width: 1260px;
+  height: 926px;
+  padding:64px;
+}
+.cabecalho {
+  display:flex;
+  justify-content: space-between
+}
+
+.perfil {
+  display:flex;
+
+}  
+  
+.perfil-foto {
+  border-radius: 460px;
+  max-width: 158px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+ 
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+  
+}
+.titulo h2 {  
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.tema button {
+ align-self: flex-end;
+ font-weight: 400;
+ font-size: 24px;
+ line-height: 28px;
+ color: #0E1D2F;
+ padding: 8px 16px; 
+ background: #ECF4FF;
+ border: 2px solid #0E1D2F;
+ border-radius: 100px;
+}
+
+.projetos  {
+  max-height:650px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  display:flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499CFE 27.49%,     #9CC8FC 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  margin-top: 25px;
+  padding:25px;   
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 1000px;
+  font-size:30px;
+  line-height: 42px;
+}
+.item {
+  font-size: 23px;
+  list-style-type: none;
+  font-weight: 400px;
+  line-height: 42px;
+}
+.item a {
+  text-decoration: none;
+  color: #1C1C1C;
+}
+
+.dark {
+  
+}
